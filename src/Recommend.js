@@ -17,7 +17,7 @@ const initialFitnessPriority = {
   // core: 5,
 }
 
-const workoutRecommendationURL = "https://fathomless-gorge-70191.herokuapp.com/recommend_workout"
+const workoutRecommendationURL = "http://localhost:8000/recommend_workout"
 function Recommend() {
   const [userFitnessPriority, setUserFitnessPriority] = useState(initialFitnessPriority);
   const [view, setView] = useState("goals");
